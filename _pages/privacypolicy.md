@@ -9,7 +9,7 @@ last_modified_at: 2025-10-11
 
 **App:** Messier Journal
 **Developer:** Damon Degner (“we,” “us,” or “our”)  
-**Contact:** [https://astrocodelabs.github.io/support/](https://astrocodelabs.github.io/support/)
+**Contact:** [AstroCodeLabs Support](https://astrocodelabs.github.io/support/)
 **Website:** [https//:astrocodelab.github.io](https://astrocodelab.github.io)
 
 ---
@@ -43,7 +43,7 @@ You can change permissions anytime in **Settings → Privacy & Security** on you
 Messier Journal is not directed to children under **13** (or the age required by your region). We do not knowingly collect personal information from children.
 
 ## Your Rights
-Depending on your location (e.g., EU/EEA, UK, California), you may have rights to access, correct, delete, or restrict processing of your data. Because we do not collect personal data on our servers, requests typically involve information stored on your device. If you need help exercising a right, contact us at **[https://astrocodelabs.github.io/support/]**.
+Depending on your location (e.g., EU/EEA, UK, California), you may have rights to access, correct, delete, or restrict processing of your data. Because we do not collect personal data on our servers, requests typically involve information stored on your device. If you need help exercising a right, contact us at **[AstroCodeLabs Support](https://astrocodelabs.github.io/support/)**.
 
 ## Data Retention
 Data remains on your device until **you delete it** or uninstall the app. If you exported items to Apple Photos or other locations, delete them there separately if desired.
@@ -58,7 +58,7 @@ We do not transfer your personal data to our servers. If you use Apple services 
 We may update this policy to reflect app changes or legal requirements. Updates will be posted on our website and the “Last updated” date will change.
 
 ## Contact
-Questions or requests: **[https://astrocodelabs.github.io/support/]**  
+Questions or requests: **[AstroCodeLabs Support](https://astrocodelabs.github.io/support/)**  
 
 ---
 
