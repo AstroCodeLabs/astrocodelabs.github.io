@@ -1,60 +1,72 @@
 ---
 layout: page
-title: Privacy Policy
-include_in_header: false
+title: "Privacy Policy"
+permalink: /privacypolicy/
+last_modified_at: 2025-10-11
 ---
 
-**Last updated**  
-August 1 2019
+**Last updated:** October 11, 2025
 
-# Privacy Policy
-Submissive a when owing much far bawdy thanks impolitely alas overlaid one and this one chuckled darn on more due much misheard amused far far the much purposeful that wildebeest dalmatian and piranha bluebird this and much despite however much sincere nonsensical this paradoxically more.
+**App:** Messier Journal
+**Developer:** Damon Degner (“we,” “us,” or “our”)  
+**Contact:** [youremail@example.com]  
+**Website:** [https:happytrooper.github.io](https://happytrooper.github.io)
 
-**Please note:** This is purely a dummy Privacy Policy that serves as an example for how you can use this app landing page generator. Please replace the contents with your own privacy policy.
+---
 
-<br>
+## Overview
+Messier Journal helps you catalog and track Messier objects and optionally store photos and notes. We designed the app to collect **as little personal data as possible**. Most data stays **on your device** and under your control.
 
-## 1.0 Information We Collect
-Far near but lighted walking far oyster hello kneeled flung and roadrunner and more witless narrowly flexed brokenly blandly much in famous jeez obsessive that.
+## What We Collect
+- **Account data:** None. The app does not create or require an account.  
+- **Personal data:** None is collected by us. Information you enter (e.g., notes, observation metadata) is stored locally on your device.  
+- **Photos & media:** If you choose to import or save images, they are stored locally in the app’s storage and/or your Apple Photos library **only when you choose to export**.  
+- **Analytics / tracking:** We do **not** use third-party analytics SDKs or advertising trackers.  
+- **Diagnostics:** We do not collect diagnostics. Apple may provide us with **aggregated, anonymous crash reports** if you opt in to share diagnostics with developers in iOS settings; these do not identify you.
 
-### 1.1 Information from third parties
-- Ouch until smirked some some newt that at frustrating.
-- Nimbly handsomely fabulously python.
-- Alas informally taped when a dear some.
+## App Permissions & How They’re Used
+- **Photos (Library) Access:** Used to read images you select for import and to **save collages/exports** to your Photos library—only when you request it.  
+- **Camera Access (if enabled):** Used solely to capture images inside the app—only when you initiate capture.  
 
-### 1.2 Information you provide to us 
-Menacingly much walrus far together derisive falcon the toneless unceremoniously yet yikes a hung when because far drooled cast amused naughtily quiet hare a thickly more dogged drank more this dismounted since hence nakedly jeez rolled far gerbil the hey puerilely where vociferously struck insane much twitched instead some beneath then wiped dull snuffed far jeez nightingale bit goodness obscurely quit that much yet nefarious careless some concrete shrewdly gull closed this hugged aboard.
+You can change permissions anytime in **Settings → Privacy & Security** on your device.
 
-<br>
+## Where Your Data Lives
+- **On-device by default.** Your notes, selections, and app settings are stored locally.  
+- **iCloud/Photos (optional).** If you save images to Apple Photos or back up your device with iCloud, Apple’s services will hold copies according to your Apple settings and Apple’s privacy policy.
 
-## 2.0 What Personal Information we collect about you and how we collect it
-Where cut one reproachful alas ambiguous helpful hen raucous editorial underwrote dubiously therefore this boastfully or possessively oh modest amidst some opposite far wasp grew emu snickered some jeepers and circa much that *equitable* foul camel caudally oh opossum far dear met far much close hello beheld facetious far goodness tidily reindeer that kiwi thus crud that paid and by titilatingly hey falcon lemming or well approving sympathetically groundhog mongoose and deeply peaceful wow ouch far regally this and near and badly fatal blunt mischievously and and the blew.
+## Sharing & Selling of Data
+- We **do not sell** your data.  
+- We **do not share** personal data with third parties.  
+- If required by law (e.g., valid legal process), we may disclose information we have (which is typically none beyond aggregated diagnostics if provided by Apple).
 
-### 2.1 Third Parties we collect information from
-Various remotely save this querulously explicitly one this and far congenially broad grew said or abhorrently haltered darn beheld panther shrank and one goldfish the more away as much different moth.
+## Children’s Privacy
+Messier Journal is not directed to children under **13** (or the age required by your region). We do not knowingly collect personal information from children.
 
-| Third Party | What is it used for? |
-| :--- | :--- |
-| Falcon | Tidily reindeer that kiwi thus crud that paid and by titilatingly hey falcon lemming. |
-| Eagle | Juggled crud a however overslept vehemently kept indisputably anteater walked alas or into. |
+## Your Rights
+Depending on your location (e.g., EU/EEA, UK, California), you may have rights to access, correct, delete, or restrict processing of your data. Because we do not collect personal data on our servers, requests typically involve information stored on your device. If you need help exercising a right, contact us at **[youremail@example.com]**.
 
-<br>
+## Data Retention
+Data remains on your device until **you delete it** or uninstall the app. If you exported items to Apple Photos or other locations, delete them there separately if desired.
 
-## 3.0 What rights do you, as the data subject, have
-This goodness well well and more cowardly lynx credibly more apart save and less oh examined ouch marginal growled and proper liberally salmon busy some while pointed far because understood.
+## Security
+We rely on iOS’s built-in security and your device safeguards. Please use a device passcode/biometrics and keep your OS up to date.
 
-1. Boastfully or possessively oh modest amidst.
-2. Far far the much purposeful that wildebeest dalmatian.
-3. Adamant or pushed less far overthrew.
+## International Transfers
+We do not transfer your personal data to our servers. If you use Apple services (e.g., iCloud), refer to Apple’s policies for any international data handling.
 
-All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+## Changes to This Policy
+We may update this policy to reflect app changes or legal requirements. Updates will be posted on our website and the “Last updated” date will change.
 
-<br>
+## Contact
+Questions or requests: **[youremail@example.com]**  
+Mailing address (optional): **[Your postal address]**
 
-## 4.0 How we store and secure the Personal Information we collect
-Worm where gravely behind logically far in tastefully as alas delicately before well darn then far the much pulled red-handed circa much much far pangolin spelled much clung dachshund smirked close some the adamant or pushed less far overthrew in moth begrudging warthog newt pragmatic bent darn and far needlessly notwithstanding angrily as celestially horse rebuking magnanimous dear inscrutably jeepers listless before saucy this much however and wolf dear cringed crab a wanton jeepers flatteringly characteristically a atrocious and returned more lemming robin let some crud that more secure nimble where soundly pitiful because bombastic much.
+---
 
-<br>
-
-## 5.0 Information processing and transfers for EEA individuals
-Cracked a more and iguana a without some echidna a abnormal hello and beat thanks jeepers gnu jeepers until up depending for drooled awfully angelfish relentless much a well wasp some in impala darn and overate greedily wow kookaburra beneath much wistful fluid until and lemming less armadillo redoubtable after much capybara wow that hence interbred timorous loosely oh.
+### Notes for App Store Connect
+- Set **Privacy Policy URL** to: `https://yourdomain.example/privacy/`  
+- If you later add analytics, ads, sign-in, or server features, update:
+  - **What We Collect**
+  - **Where Your Data Lives**
+  - **Sharing & Selling of Data**
+  - Add a **Third-Party Services** section naming each SDK (purpose + link to its policy).
