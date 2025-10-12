@@ -61,11 +61,3 @@ We may update this policy to reflect app changes or legal requirements. Updates 
 Questions or requests: **[AstroCodeLabs Support](https://astrocodelabs.github.io/support/)**  
 
 ---
-
-### Notes for App Store Connect
-- Set **Privacy Policy URL** to: `https://yourdomain.example/privacy/`  
-- If you later add analytics, ads, sign-in, or server features, update:
-  - **What We Collect**
-  - **Where Your Data Lives**
-  - **Sharing & Selling of Data**
-  - Add a **Third-Party Services** section naming each SDK (purpose + link to its policy).
