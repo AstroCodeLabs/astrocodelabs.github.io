@@ -10,7 +10,7 @@ last_modified_at: 2025-10-11
 **App:** Messier Journal
 **Developer:** Damon Degner (“we,” “us,” or “our”)  
 **Contact:** [youremail@example.com]  
-**Website:** [https:happytrooper.github.io](https://happytrooper.github.io)
+**Website:** [https:astrocodelab.github.io](https://astrocodelab.github.io)
 
 ---
 
