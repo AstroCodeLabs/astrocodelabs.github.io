@@ -54,7 +54,7 @@ features                                  :
     fontawesome_icon_name                 : binoculars
 
   - title                                 : Photo Album
-    description                           : Upload photos of your findings- sketches, smartphone eyepiece photos, astrophotos, smart telescope photos.
+    description                           : Upload photos from your - sketches, smartphone eyepiece views, astrophoto rig, or smart telescope. 
     fontawesome_icon_name                 : camera
   
   - title                                 : Favorites
