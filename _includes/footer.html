@@ -100,6 +100,9 @@
 		{%- if privacy_href -%}
 		  <a href="{{ privacy_href | relative_url }}" target="_self">Privacy Policy</a>
 		{%- endif -%}
+		{%- if site.support_url -%}
+  		<a href="{{ site.support_url }}" target="_blank" rel="noopener">Support</a>
+		{%- endif -%}
 		{% if site.presskit_download_link %}
 			<a href="{{ site.presskit_download_link }}">Press Kit</a>
 		{% endif %}
