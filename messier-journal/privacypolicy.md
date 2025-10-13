@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Privacy Policy"
-permalink: /privacypolicy/
+permalink: /messier-journal/privacypolicy/
 last_modified_at: 2025-10-11
 ---
 
