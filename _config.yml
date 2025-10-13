@@ -15,7 +15,7 @@ app_name                                  : Messier Journal                     
 app_price                                 : $0.99                                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : For astrophotographers and visual astronomers in the northern hemisphere.  Keep a log of the Messier Objects that you have located with the Messier Journal app!
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
+support_url                               : https://astrocodelabs.github.io/support/ 
 
 
 # Information About Yourself
