@@ -39,15 +39,15 @@
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
-                                {{ site.app_name }}
+                                {{ page.app_name | default: site.app_name }}
                             </h1>
                             <h2 class="appPrice">
-                                {{ site.app_price }}
+                                {{ page.app_price | default: site.app_price }}
                             </h2>
                         </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
-                                {{ site.app_description }}
+                                {{ page.app_description | default: site.app_description }}
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
