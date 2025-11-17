@@ -15,7 +15,7 @@ last_modified_at: 2025-11-17
 ---
 
 ## Overview
-Caldwell Journal helps you catalog and track Messier objects and optionally store photos and notes. We designed the app to collect **as little personal data as possible**. Most data stays **on your device** and under your control.
+Caldwell Journal helps you catalog and track objects from the Caldwell Catalog and optionally store photos and notes. We designed the app to collect **as little personal data as possible**. Most data stays **on your device** and under your control.
 
 ## What We Collect
 - **Account data:** None. The app does not create or require an account.  
