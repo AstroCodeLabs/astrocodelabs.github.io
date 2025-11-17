@@ -9,8 +9,8 @@ last_modified_at: 2025-10-11
 
 **App:** Messier Journal
 **Developer:** Damon Degner (“we,” “us,” or “our”)  
-**Contact:** [AstroCodeLabs Support](https://astrocodelabs.github.io/support/)
-**Website:** [https//:astrocodelabs.github.io](https://astrocodelabs.github.io)
+**Contact:** [AstroCodeLabs Support](https://astrocodelabs.com/support/)
+**Website:** [https//:astrocodelabs.com](https://astrocodelabs.com)
 
 ---
 
