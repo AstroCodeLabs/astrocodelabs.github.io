@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Privacy Policy"
-permalink: /messier-journal/privacypolicy/
-last_modified_at: 2025-10-11
+permalink: /caldwell-journal/privacypolicy/
+last_modified_at: 2025-11-17
 ---
 
-**Last updated:** October 11, 2025
+**Last updated:** November 17, 2025
 
-**App:** Messier Journal
+**App:** Caldwell Journal
 **Developer:** Damon Degner (“we,” “us,” or “our”)  
 **Contact:** [AstroCodeLabs Support](https://astrocodelabs.github.io/support/)
 **Website:** [https//:astrocodelabs.github.io](https://astrocodelabs.github.io)
@@ -15,7 +15,7 @@ last_modified_at: 2025-10-11
 ---
 
 ## Overview
-Messier Journal helps you catalog and track Messier objects and optionally store photos and notes. We designed the app to collect **as little personal data as possible**. Most data stays **on your device** and under your control.
+Caldwell Journal helps you catalog and track Messier objects and optionally store photos and notes. We designed the app to collect **as little personal data as possible**. Most data stays **on your device** and under your control.
 
 ## What We Collect
 - **Account data:** None. The app does not create or require an account.  
@@ -40,7 +40,7 @@ You can change permissions anytime in **Settings → Privacy & Security** on you
 - If required by law (e.g., valid legal process), we may disclose information we have (which is typically none beyond aggregated diagnostics if provided by Apple).
 
 ## Children’s Privacy
-Messier Journal is not directed to children under **13** (or the age required by your region). We do not knowingly collect personal information from children.
+Caldwell Journal is not directed to children under **13** (or the age required by your region). We do not knowingly collect personal information from children.
 
 ## Your Rights
 Depending on your location (e.g., EU/EEA, UK, California), you may have rights to access, correct, delete, or restrict processing of your data. Because we do not collect personal data on our servers, requests typically involve information stored on your device. If you need help exercising a right, contact us at **[AstroCodeLabs Support](https://astrocodelabs.github.io/support/)**.
