@@ -7,7 +7,7 @@ last_modified_at: 2025-10-11
 app_icon: /assets/RocketNoTailSq.jpg
 ---
 
-If you need assistance with **Caldwell and/or Messier Journal**, fill out the form below. Any suggestions are also appreciated.
+If you need assistance with **Caldwell or Messier Journal**, fill out the form below. Any suggestions are also appreciated.
 
 <div class="form-embed">
   <!-- Responsive wrapper -->
