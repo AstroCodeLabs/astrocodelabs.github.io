@@ -1,7 +1,7 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 {% assign ios_app_id = page.ios_app_id | default: site.ios_app_id %}
 {% assign ios_app_country = page.ios_app_country | default: site.ios_app_country %}
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 {% if site.ios_app_id %}
 
@@ -33,10 +33,10 @@ $(function() {
                 $($appIconLarge).attr("src", appInfo.artworkUrl512);
             }
 
-            // Set header app icon using the iOS app ID if it is not set manually in _config.yml
+            // Set the header icon if it’s still empty
             var $appIconHeader = $(".headerIcon");
-            if (!$appIconHeader.attr('src')) {
-                $($appIconHeader).attr("src", appInfo.artworkUrl512);
+            if ($appIconHeader.length && $.trim($appIconHeader.attr("src")).length == 0) {
+                $appIconHeader.attr("src", appInfo.artworkUrl512);
             }
 
             // Set app name using the iOS app ID if it is not set manually in _config.yml
@@ -57,10 +57,10 @@ $(function() {
                 $($appPrice).html(appInfo.formattedPrice);
             }
 
-            // Set App Store link using the iOS app ID if it is not set manually in _config.yml
+            // Set App Store link if you didn’t set it manually
             var $appStoreLink = $(".appStoreLink");
             if ($.trim($appStoreLink.attr('href')).length == 0) {
-                $($appStoreLink).attr("href", appInfo.trackViewUrl);
+                $appStoreLink.attr("href", appInfo.trackViewUrl);
             }
 
             console.info(appInfo);
