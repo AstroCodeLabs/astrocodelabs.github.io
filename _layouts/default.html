@@ -35,7 +35,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <img class="appIconLarge" src="{{ site.app_icon | relative_url }}">
+                            <img class="appIconLarge" src="{{ page.app_icon | default: site.app_icon | relative_url }}">
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
