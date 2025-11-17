@@ -6,7 +6,7 @@ permalink: /support/
 last_modified_at: 2025-10-11
 ---
 
-If you need assistance with **Messier Journal**, fill out the form below. Any suggestions are also appreciated.
+If you need assistance with **Caldwell and/or Messier Journal**, fill out the form below. Any suggestions are also appreciated.
 
 <div class="form-embed">
   <!-- Responsive wrapper -->
@@ -27,5 +27,5 @@ If you need assistance with **Messier Journal**, fill out the form below. Any su
   @media (max-width: 480px){ .form-embed__ratio { height: 900px; } }
 .form-embed__fallback { font-size: 0.9rem; color: #666; margin-top: 0.75rem; }
 </style>
-[← Return to the Messier Journal Home Page]({{ '/' | relative_url }})
+[← Return to the Astro Code Labs Home Page]({{ '/' | relative_url }})
 
