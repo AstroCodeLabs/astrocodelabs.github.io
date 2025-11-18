@@ -31,8 +31,8 @@ $social-icons-foreground-color: {{ site.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.social_icons_background_color }};
 
 header .appIconShadow .headerIcon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
 }
 
@@ -48,19 +48,19 @@ header .appIconShadow .headerIcon {
 }
 
 .headerHomeLink {
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 /* Make the header rocket icon container bigger */
 header .logo .appIconShadow {
-  width: 60px;   // adjust to taste
-  height: 60px;  // adjust to taste
+  width: 50px;   // adjust to taste
+  height: 50px;  // adjust to taste
 }
 
 /* Make the rocket itself match the container */
 header .logo .appIconShadow .headerIcon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: block;
 }
 
