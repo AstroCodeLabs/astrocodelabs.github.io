@@ -30,6 +30,40 @@ $feature-icons-background-color: {{ site.feature_icons_background_color }};
 $social-icons-foreground-color: {{ site.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.social_icons_background_color }};
 
+.multiAppContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.multiAppCard {
+    text-align: center;
+    text-decoration: none;
+    max-width: 220px;
+}
+
+.multiAppIcon {
+    width: 160px;
+    height: 160px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.multiAppCard h2 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.multiAppCard p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+
 @import 
     "base",
     "layout",
