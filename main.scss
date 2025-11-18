@@ -35,12 +35,12 @@ $social-icons-background-color: {{ site.social_icons_background_color }};
 .headerHomeLink,
 .headerHomeLink:visited,
 .headerHomeLink:hover {
-    color: #ccc !important;   // match Support link
+    color: #ccc;
     text-decoration: none;
 }
 
 .headerHomeLink .headerName {
-    color: #ccc !important;
+    color: #ccc;
 }
 
 .multiAppContainer {
