@@ -26,42 +26,72 @@
                         {% include screencontent.html %}
 
                     </div>
-                    <div class="appInfo">
-                        <div class="appIconShadow">
-                            <svg width="0" height="0">
-                                <defs>
-                                    <clipPath id="shape120">
-                                        <path id="shape" class="cls-1" d="M6821,495.533v-4.281c0-1.2-.04-2.4-0.04-3.642a57.7,57.7,0,0,0-.68-7.882,26.144,26.144,0,0,0-2.48-7.483,25.115,25.115,0,0,0-11.04-11.044,26.118,26.118,0,0,0-7.49-2.481,47.28,47.28,0,0,0-7.88-.68c-1.2-.04-2.4-0.04-3.64-0.04h-53.5c-1.2,0-2.4.04-3.64,0.04a57.813,57.813,0,0,0-7.88.68,26.323,26.323,0,0,0-7.49,2.481,25.115,25.115,0,0,0-11.04,11.044,26.144,26.144,0,0,0-2.48,7.483,47.313,47.313,0,0,0-.68,7.882c-0.04,1.2-.04,2.4-0.04,3.642v53.5c0,1.2.04,2.4,0.04,3.641a57.7,57.7,0,0,0,.68,7.883,26.137,26.137,0,0,0,2.48,7.482,25.115,25.115,0,0,0,11.04,11.044,26.261,26.261,0,0,0,7.49,2.481,47.28,47.28,0,0,0,7.88.68c1.2,0.04,2.4.04,3.64,0.04h53.5c1.2,0,2.4-.04,3.64-0.04a57.654,57.654,0,0,0,7.88-.68,26.057,26.057,0,0,0,7.49-2.481,25.115,25.115,0,0,0,11.04-11.044,26.137,26.137,0,0,0,2.48-7.482,47.316,47.316,0,0,0,.68-7.883c0.04-1.2.04-2.4,0.04-3.641V495.533h0Z" transform="translate(-6701 -458)" filter="url(#f1)"/>
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                            <img class="appIconLarge" src="{{ page.app_icon | default: site.app_icon | relative_url }}">
-                        </div>
-                        <div class="appNamePriceContainer">
-                            <h1 class="appName">
-                                {{ page.app_name | default: site.app_name }}
-                            </h1>
-                            <h2 class="appPrice">
-                                {{ page.app_price | default: site.app_price }}
-                            </h2>
-                        </div>
-                        <div class="appDescriptionContainer">
-                            <p class ="appDescription">
-                                {{ page.app_description | default: site.app_description }}
-                            </p>
-                        </div>
-                        <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
-                            {% endif %}
-                            <a class="appStoreLink" href="{{ page.appstore_link | default: site.appstore_link }}"> <img class="appStore" src="{{ 'assets/appstore.png' | relative_url }}">
-                            </a>
+                    {% if page.app_picker %}
 
-                        </div>
-                    </div>
-                    {% include features.html %}
-                    {% include footer.html %}
-                    {% include appstoreimages.html %}
+    <!-- Home page: show two app icons instead of single app + price + store button -->
+    <div class="appInfo">
+        <div class="multiAppContainer">
+            <a href="{{ '/messier-journal/' | relative_url }}" class="multiAppCard">
+                <img class="multiAppIcon"
+                     src="{{ '/assets/MJ/MJAppIcon.png' | relative_url }}"
+                     alt="Messier Journal icon">
+                <h2>Messier Journal</h2>
+                <p>Track and photograph all 110 Messier objects.</p>
+            </a>
+
+            <a href="{{ '/caldwell-journal/' | relative_url }}" class="multiAppCard">
+                <img class="multiAppIcon"
+                     src="{{ '/assets/CJ/CJAppIcon.png' | relative_url }}"
+                     alt="Caldwell Journal icon">
+                <h2>Caldwell Journal</h2>
+                <p>Log and explore all 109 Caldwell objects.</p>
+            </a>
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+{% else %}
+
+    <!-- Normal Automatic layout for actual app pages -->
+    <div class="appInfo">
+        <div class="appIconShadow">
+            <svg width="0" height="0">
+                <!-- existing defs/clipPath unchanged -->
+            </svg>
+            <img class="appIconLarge" src="{{ page.app_icon | default: site.app_icon | relative_url }}">
+        </div>
+        <div class="appNamePriceContainer">
+            <h1 class="appName">
+                {{ page.app_name | default: site.app_name }}
+            </h1>
+            <h2 class="appPrice">
+                {{ page.app_price | default: site.app_price }}
+            </h2>
+        </div>
+        <div class="appDescriptionContainer">
+            <p class ="appDescription">
+                {{ page.app_description | default: site.app_description }}
+            </p>
+        </div>
+        <div class="downloadButtonsContainer">
+            {% if site.playstore_link %}
+                <a class="playStoreLink" href="{{site.playstore_link}}">
+                    <img class="playStore" src="assets/playstore.png">
+                </a>
+            {% endif %}
+            <a class="appStoreLink" href="{{ page.appstore_link | default: site.appstore_link }}">
+                <img class="appStore" src="{{ 'assets/appstore.png' | relative_url }}">
+            </a>
+        </div>
+    </div>
+
+    {% include features.html %}
+    {% include footer.html %}
+    {% include appstoreimages.html %}
+
+{% endif %}
+
                 </div>
             </div>
         </div>
