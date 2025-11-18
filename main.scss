@@ -30,40 +30,47 @@ $feature-icons-background-color: {{ site.feature_icons_background_color }};
 $social-icons-foreground-color: {{ site.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.social_icons_background_color }};
 
-header .appIconShadow .headerIcon {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
+/* -------- Header / nav icon customizations -------- */
+
+/* Make the left 'logo' area align nicely */
+header .logo {
+  display: flex;
+  align-items: center;
 }
 
+/* Shared style for Home and Support header links */
 .headerHomeLink,
+.headerSupportLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;              // space between icon and text
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Keep colors consistent on hover / visited */
+.headerHomeLink:hover,
 .headerHomeLink:visited,
-.headerHomeLink:hover {
-    color: #ccc !important;
-    text-decoration: none;
+.headerSupportLink:hover,
+.headerSupportLink:visited {
+  color: #ccc;
+  text-decoration: none;
 }
 
-.headerHomeLink .headerName {
-    color: #ccc !important;
+/* Small, subtle inline icons */
+.navIcon {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;  // matches the link text color
 }
 
-.headerHomeLink {
-    margin-left: 10px;
+/* Optional: tighten up header text spacing */
+.headerHomeLink span,
+.headerSupportLink span {
+  margin: 0;
+  padding: 0;
 }
-
-/* Make the header rocket icon container bigger */
-header .logo .appIconShadow {
-  width: 50px;   // adjust to taste
-  height: 50px;  // adjust to taste
-}
-
-/* Make the rocket itself match the container */
-header .logo .appIconShadow .headerIcon {
-  width: 50px;
-  height: 50px;
-  display: block;
-}
-
 
 .multiAppContainer {
     display: flex;
