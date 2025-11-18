@@ -30,7 +30,18 @@ $feature-icons-background-color: {{ site.feature_icons_background_color }};
 $social-icons-foreground-color: {{ site.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.social_icons_background_color }};
 
-.headerIcon { width: 40px; height: auto; }
+.headerIcon { width: 60px; height: auto; }
+
+.headerHomeLink,
+.headerHomeLink:visited,
+.headerHomeLink:hover {
+    color: #ccc !important;   // match Support link
+    text-decoration: none;
+}
+
+.headerHomeLink .headerName {
+    color: #ccc !important;
+}
 
 .multiAppContainer {
     display: flex;
